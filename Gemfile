@@ -25,6 +25,16 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+gem 'devise'
+gem 'cancancan'
+gem 'mini_magick'
+gem 'carrierwave', '~> 1.0'
+gem 'ransack'
+gem 'will_paginate', '~> 3.1.0'
+
+gem 'acts_as_follower', github: 'tcocca/acts_as_follower', branch: 'master'
+gem 'acts_as_commentable'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
